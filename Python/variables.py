@@ -106,3 +106,13 @@ print(friends[0])
 friends_list = [["Rolf", 24], ["Bob", 30], ["Anne", 27]]
 print(friends_list[0])
 
+# Arguments and Parameters
+
+car = {
+    "make": "Ford",
+    "model": "Fiesta",
+    "mileage": 23000,
+    "fuel_consumed": 460
+}
+
+mpg = car["mileage"] / car["fuel_consumed"]
